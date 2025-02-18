@@ -13,7 +13,7 @@ cursorObject = database.cursor()
 
 # create a variable to store the SQL query
 sql = "INSERT INTO student (NAME, BRANCH, ROLL, SECTION, AGE) VALUES (%s, %s, %s, %s, %s)"
-val = ("Ankita", "CSE", 101, "A", 20)
+val = ("Ankit", "CSIT", 101, "A", 20)
 
 # execute the query
 cursorObject.execute(sql, val)
